@@ -123,8 +123,7 @@ Data Analyst with a strong background in international e-commerce and consulting
 
 <div align="center">
 
-<img src="metrics.isocalendar.svg" alt="Isometric contribution calendar, last six months" />
-<img src="metrics.languages.svg" alt="Most used and recently used languages" />
+<img src="metrics.svg" alt="Isometric contribution calendar for the last six months, and most used languages" />
 
 </div>
 
