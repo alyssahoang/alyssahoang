@@ -77,16 +77,6 @@
 <br/>
 -->
 
-## Interested in collaboration?
-<sup>Let's talk.</sup>
-
-<div align="center">
-
-<a href="mailto:tramanh.hoang0607@gmail.com"><img src="https://img.shields.io/badge/Email%20me%20%E2%86%97-F27D0D?style=for-the-badge&logo=gmail&logoColor=white" alt="Email me" /></a>&nbsp;
-<a href="https://www.linkedin.com/in/alyssahoang/"><img src="https://custom-icon-badges.demolab.com/badge/Coffee%20chat%20%E2%86%97-3B82F6?style=for-the-badge&logo=linkedin-white&logoColor=white" alt="Coffee chat on LinkedIn" /></a>&nbsp;
-<a href="https://alyssatramnia.com/alyssa_hoang_resume.pdf"><img src="https://img.shields.io/badge/Resume%20%E2%86%93-1F2937?style=for-the-badge&logo=readdotcv&logoColor=93C5FD" alt="Resume" /></a>
-
-<sub>Data Analysis · BI Dashboards · Customer Insights · Market Research</sub>
 <!--
   Optional "now playing" widget (needs a one-time Spotify login):
   1. Open https://spotify-github-profile.kittinanx.com/ and sign in with Spotify.
