@@ -1,7 +1,7 @@
 <!--
   Profile README for github.com/alyssahoang
   Palette mirrors alyssatramnia.com: bg #111827 · primary #3B82F6 · light #93C5FD · accent #F27D0D · chip #1F2937
-  Sections mirror the site: Works → Skills → GitHub → Contact
+  Sections: intro → tech → contact (works and metrics removed to keep it lean)
   Header: assets/lofi-desk.svg (hand-made animated SVG, regenerate with gen_lofi.py if you want to tweak it)
 -->
 
@@ -39,85 +39,41 @@ Data Analyst with a strong background in international e-commerce and consulting
 
 <br/>
 
-## My Works
-<sup>Where I keep my curiosity — every project starts with a question.</sup>
-
-#### Customer Experience
-
-| Project | The question it answers | Stack |
-|---|---|---|
-| [Customer review map](https://github.com/alyssahoang/interactive-customer-review-map) · [live app](https://interactive-customer-review-map.streamlit.app/) | **What frustrates e-commerce customers most?** I read 36K+ reviews so nobody else has to. 86% of negative reviews come down to two logistics problems. | Python, NLP embeddings, Streamlit |
-| [Delivery lead time in e-commerce](https://github.com/alyssahoang/olist-delivery-lead-time-multilevel) | **What drives delivery time on a marketplace?** Routing first, seller heterogeneity second. | R, lme4, bootstrap |
-| [Churn prediction](https://github.com/alyssahoang/Churn-Prediction) · [RFM segmentation](https://github.com/alyssahoang/RFM-Analysis) · [Marketing budget](https://github.com/alyssahoang/MKT-Budget-Allocation) | **Who is about to leave, who is worth keeping, and where should the budget go?** Customer analytics fundamentals. | Python, scikit-learn |
-
-#### Forecasting & Risk
-
-| Project | The question it answers | Stack |
-|---|---|---|
-| [Insurance risk scoring](https://github.com/alyssahoang/insurance-approval-model-credit-risk) | **Which approvals can we trust?** AUROC 0.83 from a 1.5% base rate, with a model you could defend in a meeting. | Python, WoE/IV, Elastic Net |
-| [Weather shocks & e-commerce](https://github.com/alyssahoang/weather-shocks-ecommerce-thesis) *(thesis)* | **Does heavy rain reduce online orders?** Yes — about −9% per capita on heavy-rain days. | R, PPML, mixed models |
-
-#### BI & Dashboards
-
-| Project | The question it answers | Stack |
-|---|---|---|
-| [AdventureWorks production](https://github.com/alyssahoang/AdventureWork---Production-Inventory-Insights) | **Where is inventory getting stuck?** 4.5M units, seven assembly stages, and an on-time rate of only 41.6%. | Power BI, Power Query |
-| [Global Superstore](https://github.com/alyssahoang/powerbi-global-superstore) | **Which markets actually make money?** Sales grew 51.5%, but the largest market isn't the most profitable. | Power BI |
-| [Furniture store performance](https://github.com/alyssahoang/powerbi-furniture-store-performance) | **Which branch performs best, and why?** Footfall, not merchandising. Weekends bring in 46% of revenue. | Power BI, DAX, Python |
-
-#### Market & Social
-
-| Project | The question it answers | Stack |
-|---|---|---|
-| [VN stock market scraper](https://github.com/alyssahoang/vn-stock-market-scraper) · [live screener](https://vn-stock-screener.streamlit.app/) | **How do you screen 1,500+ Vietnamese listed companies when no API exists?** Scrape the fundamentals, then build the screener. | Python, Selenium, Streamlit |
-| [IMDB market basket](https://github.com/alyssahoang/market-basket-analysis-apriori-pcy-pms) | **What makes a movie successful?** Apriori vs PCY vs PMS on 1,000 films — hashing is 1,000× faster at low support. | Python |
-
-#### Just curious
-
-| Project | The question it answers | Stack |
-|---|---|---|
-| [Weather & running dynamics](https://github.com/alyssahoang/weather-running-dynamics-fda) | **Does heat change how I run?** 148 of my own runs: heat raises heart rate over 84% of a run. | R, functional data analysis, TDA |
-
-<br/>
-
-## My Skills
+## Tech I work with
 <sup>The tools I reach for most.</sup>
 
-**BI & Visualization**<br/>
-<img src="https://custom-icon-badges.demolab.com/badge/Power%20BI-1F2937?style=for-the-badge&logo=power-bi&logoColor=F2C811" alt="Power BI" />
-<img src="https://custom-icon-badges.demolab.com/badge/DAX-1F2937?style=for-the-badge&logo=dax&logoColor=F2C811" alt="DAX" />
-<img src="https://img.shields.io/badge/Power%20Query-1F2937?style=for-the-badge" alt="Power Query" />
-<img src="https://custom-icon-badges.demolab.com/badge/Tableau-1F2937?style=for-the-badge&logo=tableau&logoColor=E97627" alt="Tableau" />
-<img src="https://img.shields.io/badge/Looker-1F2937?style=for-the-badge&logo=looker&logoColor=4285F4" alt="Looker" />
-<img src="https://custom-icon-badges.demolab.com/badge/Excel-1F2937?style=for-the-badge&logo=microsoft-excel&logoColor=217346" alt="Excel" />
-<img src="https://img.shields.io/badge/Streamlit-1F2937?style=for-the-badge&logo=streamlit&logoColor=FF4B4B" alt="Streamlit" />
-<img src="https://custom-icon-badges.demolab.com/badge/Shiny-1F2937?style=for-the-badge&logo=shiny&logoColor=93C5FD" alt="Shiny" />
+<p align="center">
+<img src="https://go-skill-icons.vercel.app/api/icons?i=py" height="48" alt="Python" title="Python" />
+<img src="https://go-skill-icons.vercel.app/api/icons?i=r" height="48" alt="R" title="R" />
+<img src="https://go-skill-icons.vercel.app/api/icons?i=sklearn" height="48" alt="scikit-learn" title="scikit-learn" />
+<img src="https://go-skill-icons.vercel.app/api/icons?i=pandas" height="48" alt="pandas" title="pandas" />
+<img src="https://go-skill-icons.vercel.app/api/icons?i=numpy" height="48" alt="NumPy" title="NumPy" />
+<img src="https://go-skill-icons.vercel.app/api/icons?i=jupyter" height="48" alt="Jupyter" title="Jupyter" />
+<img src="https://go-skill-icons.vercel.app/api/icons?i=streamlit" height="48" alt="Streamlit" title="Streamlit" />
+<img src="https://go-skill-icons.vercel.app/api/icons?i=selenium" height="48" alt="Selenium" title="Selenium" />
+<br/><br/>
+<img src="assets/powerbi.svg" height="48" alt="Power BI" title="Power BI" />
+<img src="https://go-skill-icons.vercel.app/api/icons?i=tableau" height="48" alt="Tableau" title="Tableau" />
+<img src="https://go-skill-icons.vercel.app/api/icons?i=looker" height="48" alt="Looker" title="Looker" />
+<img src="https://go-skill-icons.vercel.app/api/icons?i=excel" height="48" alt="Excel" title="Excel" />
+<img src="https://go-skill-icons.vercel.app/api/icons?i=bigquery" height="48" alt="BigQuery" title="BigQuery" />
+<img src="https://go-skill-icons.vercel.app/api/icons?i=gcp" height="48" alt="Google Cloud" title="Google Cloud" />
+<img src="https://go-skill-icons.vercel.app/api/icons?i=postgresql" height="48" alt="PostgreSQL" title="PostgreSQL" />
+<img src="https://go-skill-icons.vercel.app/api/icons?i=sqlserver" height="48" alt="SQL Server" title="SQL Server" />
+<br/><br/>
+<img src="https://go-skill-icons.vercel.app/api/icons?i=git" height="48" alt="Git" title="Git" />
+<img src="https://go-skill-icons.vercel.app/api/icons?i=github" height="48" alt="GitHub" title="GitHub" />
+<img src="https://go-skill-icons.vercel.app/api/icons?i=vscode" height="48" alt="VS Code" title="VS Code" />
+<img src="https://go-skill-icons.vercel.app/api/icons?i=claude" height="48" alt="Claude" title="Claude" />
+<img src="https://go-skill-icons.vercel.app/api/icons?i=chatgpt" height="48" alt="ChatGPT" title="ChatGPT" />
+<img src="https://go-skill-icons.vercel.app/api/icons?i=salesforce" height="48" alt="Salesforce" title="Salesforce" />
+</p>
 
-**Warehouse & Cloud**<br/>
-<img src="https://img.shields.io/badge/BigQuery-1F2937?style=for-the-badge&logo=googlebigquery&logoColor=669DF6" alt="BigQuery" />
-<img src="https://img.shields.io/badge/Google%20Cloud-1F2937?style=for-the-badge&logo=googlecloud&logoColor=4285F4" alt="Google Cloud" />
-<img src="https://img.shields.io/badge/Alibaba%20Cloud-1F2937?style=for-the-badge&logo=alibabacloud&logoColor=FF6A00" alt="Alibaba Cloud" />
-<img src="https://img.shields.io/badge/MaxCompute-1F2937?style=for-the-badge" alt="MaxCompute" />
-<img src="https://img.shields.io/badge/PostgreSQL-1F2937?style=for-the-badge&logo=postgresql&logoColor=4169E1" alt="PostgreSQL" />
-<img src="https://custom-icon-badges.demolab.com/badge/SQL%20Server-1F2937?style=for-the-badge&logo=sql-server&logoColor=CC2927" alt="SQL Server" />
-
-**Programming & Data**<br/>
-<img src="https://img.shields.io/badge/Python-1F2937?style=for-the-badge&logo=python&logoColor=3776AB" alt="Python" />
-<img src="https://img.shields.io/badge/R-1F2937?style=for-the-badge&logo=r&logoColor=276DC3" alt="R" />
-<img src="https://img.shields.io/badge/SQL-1F2937?style=for-the-badge&logo=mysql&logoColor=4479A1" alt="SQL" />
-<img src="https://img.shields.io/badge/pandas-1F2937?style=for-the-badge&logo=pandas&logoColor=E70488" alt="pandas" />
-<img src="https://img.shields.io/badge/NumPy-1F2937?style=for-the-badge&logo=numpy&logoColor=4DABCF" alt="NumPy" />
-<img src="https://img.shields.io/badge/scikit--learn-1F2937?style=for-the-badge&logo=scikitlearn&logoColor=F7931E" alt="scikit-learn" />
-<img src="https://img.shields.io/badge/Jupyter-1F2937?style=for-the-badge&logo=jupyter&logoColor=F37626" alt="Jupyter" />
-<img src="https://img.shields.io/badge/Git-1F2937?style=for-the-badge&logo=git&logoColor=F05032" alt="Git" />
-
-**Enterprise & AI tools**<br/>
-<img src="https://img.shields.io/badge/Salesforce-1F2937?style=for-the-badge" alt="Salesforce" />
-<img src="https://img.shields.io/badge/Claude%20Code-1F2937?style=for-the-badge&logo=anthropic&logoColor=D97757" alt="Claude Code" />
-<img src="https://custom-icon-badges.demolab.com/badge/OpenAI-1F2937?style=for-the-badge&logo=openai&logoColor=white" alt="OpenAI" />
+<p align="center"><sub>also: DAX · Power Query · MaxCompute · Alibaba Cloud · Shiny</sub></p>
 
 <br/>
 
+<!-- "On GitHub" metrics card: hidden (duplicates the profile page). Re-enable by removing this wrapper and turning the schedule back on in .github/workflows/metrics.yml
 ## On GitHub
 <sup>Contributions and the languages behind them. Generated daily by the Metrics workflow.</sup>
 
@@ -128,6 +84,7 @@ Data Analyst with a strong background in international e-commerce and consulting
 </div>
 
 <br/>
+-->
 
 ## Interested in collaboration?
 <sup>Let's talk.</sup>
