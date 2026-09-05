@@ -24,22 +24,18 @@
 
 <br/>
 
+### <img src="https://raw.githubusercontent.com/TheDudeThatCode/TheDudeThatCode/master/Assets/Designer.gif" width="45" /> About Me:
+
 Data Analyst with a strong background in international e-commerce and consulting, 4+ years in business analytics & customer behaviors, specializing in automated pipelines, BI dashboards, and actionable insights. Combining rigorous technical training with cross-functional leadership, I bridge the gap between technical data and business strategy. I am looking to bring my analytical toolkit to a dynamic team where I can tackle complex data challenges and drive tangible business growth.
 
-<table><tr><td>
+- 📍 Poland · fresh MSc graduate
+- ☕ fuelled by espresso, powered by pandas
+- 🏃 148 runs logged, heart-rate data included
+- 🧪 Experimenting: **AI automation in Power BI**
 
-**On my desk right now**
+---
 
-📍 &nbsp;Poland · fresh MSc graduate<br/>
-☕ &nbsp;fuelled by espresso, powered by pandas<br/>
-🏃 &nbsp;148 runs logged, heart-rate data included<br/>
-🧪 &nbsp;Experimenting: AI automation in Power BI
-
-</td></tr></table>
-
-<br/>
-
-## Tech I work with
+### 🧑‍💻 Tech I work with:
 <sup>The tools I reach for most.</sup>
 
 <p align="center">
