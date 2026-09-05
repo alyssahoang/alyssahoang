@@ -29,11 +29,8 @@
 - 📊 I'm a **Data & Insights Analyst** with 4+ years in international e-commerce and consulting
 - 🎓 Fresh MSc graduate in Data Science (University of Warsaw · University of Milan), based in Poland
 - 🔍 I specialise in automated pipelines, BI dashboards and actionable insights on customer behaviour
-- 🌉 I bridge the gap between technical data and business strategy
-- 💻 I use daily: **Python**, **R**, **SQL**, **Power BI**
 - 🧪 Currently experimenting with **AI automation in Power BI**
-- 🏃 Fun fact: 148 runs logged, heart-rate data included · ☕ fuelled by espresso, powered by pandas
-- 🤝 Looking to bring my analytical toolkit to a team that tackles complex data challenges
+- 🏃 Fun fact: I run almost everyday 
 - 🧑‍💻 Tech I work with:
 
 <p align="center">
