@@ -1,0 +1,44 @@
+# Generates metrics.isocalendar.svg and metrics.languages.svg with lowlighter/metrics
+# and commits them to this repo. Needs a repository secret named METRICS_TOKEN:
+# a personal access token (classic) with the public_repo and read:user scopes.
+name: Metrics
+on:
+  schedule: [{cron: "0 4 * * *"}]   # daily, 04:00 UTC
+  workflow_dispatch:
+  push: {branches: ["main", "master"]}
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Isometric contribution calendar
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          filename: metrics.isocalendar.svg
+          base: ""
+          config_timezone: Europe/Rome
+          config_display: large
+          config_padding: 0, 8
+          committer_message: "chore: update metrics"
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: half-year
+
+      - name: Most used languages
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          filename: metrics.languages.svg
+          base: ""
+          config_timezone: Europe/Rome
+          config_display: large
+          config_padding: 0, 8
+          committer_message: "chore: update metrics"
+          plugin_languages: yes
+          plugin_languages_sections: most-used, recently-used
+          plugin_languages_details: percentage
+          plugin_languages_limit: 6
+          plugin_languages_categories: programming
+          plugin_languages_ignored: html, css, tex, dockerfile, makefile, shell, batchfile
+          plugin_languages_indepth: no

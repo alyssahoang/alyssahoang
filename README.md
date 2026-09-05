@@ -2,13 +2,14 @@
   Profile README for github.com/alyssahoang
   Palette mirrors alyssatramnia.com: bg #111827 · primary #3B82F6 · light #93C5FD · accent #F27D0D · chip #1F2937
   Sections mirror the site: Works → Skills → Timeline → Contact
+  Header: assets/lofi-desk.svg (hand-made animated SVG, regenerate with gen_lofi.py if you want to tweak it)
 -->
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=210&color=0:111827,45:1D4ED8,100:3B82F6&text=Alyssa%20Tram%20Anh%20H.&fontColor=ffffff&fontSize=46&fontAlignY=36&desc=I%20help%20teams%20uncover%20the%20story%20behind%20their%20data%20and%20turn%20it%20into%20action.&descSize=17&descAlignY=58&animation=fadeIn" width="100%" alt="Alyssa Tram Anh H. — I help teams uncover the story behind their data and turn it into action." />
+<img src="assets/lofi-desk.svg" width="100%" alt="Alyssa Tram Anh H. — Data & Insights Analyst. I help teams uncover the story behind their data and turn it into action." />
 
-<a href="https://alyssatramnia.com"><img src="https://readme-typing-svg.demolab.com?font=Inter&weight=500&size=21&duration=2800&pause=900&color=93C5FD&center=true&vCenter=true&width=640&height=44&lines=Data+analyst+%C2%B7+retail+%2B+consulting+%2B+e-commerce;Customer+analytics+%C2%B7+risk+modelling+%C2%B7+applied+econometrics;The+decision+a+chart+supports+matters+more+than+the+chart;scroll+down+and+see+what+I+mean+%E2%86%93" alt="Data analyst · customer analytics · risk modelling · applied econometrics" /></a>
+<a href="https://alyssatramnia.com"><img src="https://readme-typing-svg.demolab.com?font=Inter&weight=500&size=19&duration=3200&pause=900&color=93C5FD&center=true&vCenter=true&width=900&height=44&lines=I+help+teams+uncover+the+story+behind+their+data+and+turn+it+into+action.;scroll+down+and+see+what+I+mean+%E2%86%93" alt="I help teams uncover the story behind their data and turn it into action." /></a>
 
 <br/>
 
@@ -23,7 +24,18 @@
 
 <br/>
 
-Data analyst with a background in retail and consulting, now finishing a dual-degree MSc in Data Science (University of Warsaw · University of Milan). I work on customer analytics, risk modelling and applied econometrics — and I care more about the decision a chart supports than the chart itself.
+Data Analyst with a strong background in international e-commerce and consulting, 4+ years in business analytics & customer behaviors, specializing in automated pipelines, BI dashboards, and actionable insights. Combining rigorous technical training with cross-functional leadership, I bridge the gap between technical data and business strategy. I am looking to bring my analytical toolkit to a dynamic team where I can tackle complex data challenges and drive tangible business growth.
+
+<table><tr><td>
+
+**On my desk right now**
+
+📍 &nbsp;Poland · fresh MSc graduate<br/>
+☕ &nbsp;fuelled by espresso, powered by pandas<br/>
+🏃 &nbsp;148 runs logged, heart-rate data included<br/>
+🧪 &nbsp;Experimenting: AI automation in Power BI
+
+</td></tr></table>
 
 <br/>
 
@@ -111,8 +123,8 @@ Data analyst with a background in retail and consulting, now finishing a dual-de
 
 | When | What | Where |
 |---|---|---|
-| Sep&nbsp;2025&nbsp;→ | **MSc Data Science in Economics & Health** · Università degli Studi di Milano — second year of the dual degree | Milan |
-| Oct&nbsp;2024&nbsp;→ | **MSc Data Science & Business Analytics** · University of Warsaw — first year of the dual degree | Warsaw |
+| 2025 – 2026 | **MSc Data Science in Economics & Health** · Università degli Studi di Milano — second year of the dual degree, thesis on weather shocks & e-commerce | Milan |
+| 2024 – 2025 | **MSc Data Science & Business Analytics** · University of Warsaw — first year of the dual degree | Warsaw |
 | Mar&nbsp;2024 | **Senior Data & Insights Analyst** · Vero ASEAN — social listening pipelines, KOL scoring and brand reputation dashboards for a top-100 PR agency | Ho Chi Minh City |
 | Oct&nbsp;2023 | **Data Analyst, Regional Customer Experience** · Lazada Group — one source of truth behind 60+ dashboards for 65M+ users | Ho Chi Minh City |
 | Aug&nbsp;2022 | **Customer Experience Analyst** · Lazada Group — mapped customer journeys and turned friction into product fixes: 4× checkout rate, 15% fewer cancellations | Ho Chi Minh City |
@@ -123,11 +135,12 @@ Data analyst with a background in retail and consulting, now finishing a dual-de
 <br/>
 
 ## On GitHub
+<sup>Contributions and the languages behind them. Generated daily by the Metrics workflow.</sup>
 
 <div align="center">
 
-<a href="https://github.com/alyssahoang"><img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=alyssahoang&theme=github_dark" height="165" alt="GitHub stats" /></a>
-<a href="https://github.com/alyssahoang"><img src="https://streak-stats.demolab.com?user=alyssahoang&hide_border=true&background=0D1117&ring=3B82F6&fire=F27D0D&currStreakLabel=3B82F6&currStreakNum=FFFFFF&sideNums=FFFFFF&sideLabels=9CA3AF&dates=6B7280&card_width=440" height="165" alt="GitHub streak" /></a>
+<img src="metrics.isocalendar.svg" alt="Isometric contribution calendar, last six months" />
+<img src="metrics.languages.svg" alt="Most used and recently used languages" />
 
 </div>
 
@@ -143,7 +156,13 @@ Data analyst with a background in retail and consulting, now finishing a dual-de
 <a href="https://alyssatramnia.com/alyssa_hoang_resume.pdf"><img src="https://img.shields.io/badge/Resume%20%E2%86%93-1F2937?style=for-the-badge&logo=readdotcv&logoColor=93C5FD" alt="Resume" /></a>
 
 <sub>Data Analysis · BI Dashboards · Customer Insights · Market Research</sub>
+<!--
+  Optional "now playing" widget (needs a one-time Spotify login):
+  1. Open https://spotify-github-profile.kittinanx.com/ and sign in with Spotify.
+  2. Copy the generated URL and paste it here:
+  <a href="https://open.spotify.com"><img src="https://spotify-github-profile.kittinanx.com/api/view?uid=YOUR_UID&cover_image=true&theme=novatorem&bar_color=F27D0D&bar_color_cover=false" alt="Now playing" /></a>
+-->
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=110&color=0:3B82F6,55:1D4ED8,100:111827&section=footer" width="100%" alt="" />
+<img src="https://capsule-render.vercel.app/api?type=waving&height=110&color=0:0B1220,55:1D4ED8,100:F27D0D&section=footer" width="100%" alt="" />
 
 </div>
