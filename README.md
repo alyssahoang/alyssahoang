@@ -60,8 +60,6 @@
 <img src="https://go-skill-icons.vercel.app/api/icons?i=salesforce" height="48" alt="Salesforce" title="Salesforce" />
 </p>
 
-<p align="center"><sub>also: DAX · Power Query · MaxCompute · Alibaba Cloud · Shiny</sub></p>
-
 <br/>
 
 <!-- "On GitHub" metrics card: hidden (duplicates the profile page). Re-enable by removing this wrapper and turning the schedule back on in .github/workflows/metrics.yml
