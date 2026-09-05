@@ -3,8 +3,11 @@ random.seed(7)
 W, H = 1000, 300
 out = []
 a = out.append
-a(f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{W}" height="{H}" font-family="Inter, Segoe UI, Roboto, Helvetica, Arial, sans-serif">')
+a(f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{W}" height="{H}" font-family="Fira Code, JetBrains Mono, Cascadia Code, Consolas, Menlo, monospace">')
+import os
+_css=open(os.path.join(os.path.dirname(os.path.abspath(__file__)),'fira-code.css'),encoding='utf-8').read()
 a('''<defs>
+  <style>'''+_css+'''</style>
   <linearGradient id="room" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0B1220"/><stop offset="1" stop-color="#111827"/></linearGradient>
   <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0F172A"/><stop offset="0.6" stop-color="#172554"/><stop offset="1" stop-color="#1D4ED8"/></linearGradient>
   <radialGradient id="lamp" cx="0.5" cy="0.3" r="0.6"><stop offset="0" stop-color="#FF9A3C" stop-opacity="0.55"/><stop offset="0.5" stop-color="#F27D0D" stop-opacity="0.18"/><stop offset="1" stop-color="#F27D0D" stop-opacity="0"/></radialGradient>
@@ -53,7 +56,7 @@ a('<rect x="504" y="118" width="212" height="134" rx="8" fill="#374151"/>')
 a('<rect x="512" y="126" width="196" height="118" rx="4" fill="#0D1117"/>')
 a('<g clip-path="url(#scr)">')
 a('<rect x="512" y="126" width="196" height="14" fill="#161B22"/><circle cx="521" cy="133" r="2.5" fill="#F27D0D"/><circle cx="529" cy="133" r="2.5" fill="#FBBF24"/><circle cx="537" cy="133" r="2.5" fill="#22C55E"/>')
-a('<text x="524" y="156" font-size="8" fill="#9CA3AF" font-family="ui-monospace, Consolas, monospace">which markets actually make money?</text>')
+a('<text x="524" y="156" font-size="8" fill="#9CA3AF" >which markets actually make money?</text>')
 bars = [18, 30, 22, 40, 34, 52, 44]
 for i, h in enumerate(bars):
     x = 524 + i*10
@@ -80,10 +83,10 @@ a('<g><ellipse cx="300" cy="240" rx="34" ry="14" fill="#F27D0D"/><circle cx="332
 a('<path d="M268 244 q-20 -4 -22 -22" fill="none" stroke="#F27D0D" stroke-width="6" stroke-linecap="round"><animateTransform attributeName="transform" type="rotate" values="0 268 244;14 268 244;0 268 244" dur="3.2s" repeatCount="indefinite"/></path></g>')
 a('<text x="300" y="214" font-size="10" fill="#9CA3AF" opacity="0"><animate attributeName="opacity" values="0;0;0.9;0" keyTimes="0;0.5;0.7;1" dur="4s" repeatCount="indefinite"/>z</text><text x="310" y="204" font-size="12" fill="#9CA3AF" opacity="0"><animate attributeName="opacity" values="0;0;0.9;0" keyTimes="0;0.55;0.8;1" dur="4s" repeatCount="indefinite"/>z</text>')
 # text (name, title and slogan match alyssatramnia.com)
-a('<text x="500" y="52" font-size="34" font-weight="700" fill="#F9FAFB">Alyssa Tram Anh H.</text>')
-a('<text x="500" y="74" font-size="15" font-weight="600" fill="#F27D0D" letter-spacing="1.5">DATA &amp; INSIGHTS ANALYST</text>')
-a('<text x="500" y="94" font-size="13" fill="#93C5FD">I help teams uncover the story behind their data</text>')
-a('<text x="500" y="111" font-size="13" fill="#93C5FD">and turn it into action.</text>')
+a('<text x="500" y="52" font-size="30" font-weight="700" fill="#F9FAFB">Alyssa Tram Anh H.</text>')
+a('<text x="500" y="74" font-size="14" font-weight="600" fill="#F27D0D" letter-spacing="1">DATA &amp; INSIGHTS ANALYST</text>')
+a('<text x="500" y="94" font-size="12" fill="#93C5FD">I help teams uncover the story behind their data</text>')
+a('<text x="500" y="111" font-size="12" fill="#93C5FD">and turn it into action.</text>')
 a('</svg>')
 svg = '\n'.join(out)
 open(sys.argv[1], 'w', encoding='utf-8', newline='\n').write(svg)

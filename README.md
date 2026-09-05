@@ -1,7 +1,7 @@
 <!--
   Profile README for github.com/alyssahoang
   Palette mirrors alyssatramnia.com: bg #111827 · primary #3B82F6 · light #93C5FD · accent #F27D0D · chip #1F2937
-  Sections mirror the site: Works → Skills → Timeline → Contact
+  Sections mirror the site: Works → Skills → GitHub → Contact
   Header: assets/lofi-desk.svg (hand-made animated SVG, regenerate with gen_lofi.py if you want to tweak it)
 -->
 
@@ -9,7 +9,7 @@
 
 <img src="assets/lofi-desk.svg" width="100%" alt="Alyssa Tram Anh H. — Data & Insights Analyst. I help teams uncover the story behind their data and turn it into action." />
 
-<a href="https://alyssatramnia.com"><img src="https://readme-typing-svg.demolab.com?font=Inter&weight=500&size=19&duration=3200&pause=900&color=93C5FD&center=true&vCenter=true&width=900&height=44&lines=I+help+teams+uncover+the+story+behind+their+data+and+turn+it+into+action.;scroll+down+and+see+what+I+mean+%E2%86%93" alt="I help teams uncover the story behind their data and turn it into action." /></a>
+<a href="https://alyssatramnia.com"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=19&duration=3200&pause=900&color=93C5FD&center=true&vCenter=true&width=900&height=44&lines=I+help+teams+uncover+the+story+behind+their+data+and+turn+it+into+action.;scroll+down+and+see+what+I+mean+%E2%86%93" alt="I help teams uncover the story behind their data and turn it into action." /></a>
 
 <br/>
 
@@ -115,22 +115,6 @@ Data Analyst with a strong background in international e-commerce and consulting
 <img src="https://img.shields.io/badge/Salesforce-1F2937?style=for-the-badge" alt="Salesforce" />
 <img src="https://img.shields.io/badge/Claude%20Code-1F2937?style=for-the-badge&logo=anthropic&logoColor=D97757" alt="Claude Code" />
 <img src="https://custom-icon-badges.demolab.com/badge/OpenAI-1F2937?style=for-the-badge&logo=openai&logoColor=white" alt="OpenAI" />
-
-<br/>
-
-## Timeline
-<sup>A quick recap of my journey.</sup>
-
-| When | What | Where |
-|---|---|---|
-| 2025 – 2026 | **MSc Data Science in Economics & Health** · Università degli Studi di Milano — second year of the dual degree, thesis on weather shocks & e-commerce | Milan |
-| 2024 – 2025 | **MSc Data Science & Business Analytics** · University of Warsaw — first year of the dual degree | Warsaw |
-| Mar&nbsp;2024 | **Senior Data & Insights Analyst** · Vero ASEAN — social listening pipelines, KOL scoring and brand reputation dashboards for a top-100 PR agency | Ho Chi Minh City |
-| Oct&nbsp;2023 | **Data Analyst, Regional Customer Experience** · Lazada Group — one source of truth behind 60+ dashboards for 65M+ users | Ho Chi Minh City |
-| Aug&nbsp;2022 | **Customer Experience Analyst** · Lazada Group — mapped customer journeys and turned friction into product fixes: 4× checkout rate, 15% fewer cancellations | Ho Chi Minh City |
-| Oct&nbsp;2020 | **Vendor Performance Supervisor** · Lazada Group — forecasting, SLA dashboards and smarter chatbot routing for customer-care vendors | Ho Chi Minh City |
-| Jun&nbsp;2018 | **Project Quality Lead** · Accenture Operations — led a 12-person team across APAC and EMEA on data-driven quality | Kuala Lumpur |
-| Sep&nbsp;2011 | **BA English for Finance & Banking** · Banking Academy of Vietnam — where it all started | Hanoi |
 
 <br/>
 
